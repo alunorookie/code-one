@@ -6,7 +6,7 @@ print (f'Olá seja vem vindo {nome} ! Vamos começar a jogar?' )
 input ('\nPressione enter para começar')
 os.system('cls')
 
-lista_de_palavras = ['banana', 'laranja', 'limao', 'uva']
+lista_de_palavras = ['banana', 'laranja', 'limao', 'uva', 'morango']
 palavra_selecionada = random.choice (lista_de_palavras).upper()
 tamanho_palavra = len(palavra_selecionada)
 palavra_codificada = ['_']*tamanho_palavra
